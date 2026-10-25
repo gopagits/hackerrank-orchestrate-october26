@@ -1,0 +1,33 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups and temporary development files
+.submission_backup/
+diagnose.py
+apply_ghost_data_patch.py
+main_changes.diff
+
+# Temporary sample predictions
+sample_predictions.csv
+sample_predictions_after_patch.csv
+
+# Generated ZIP archive
+code.zip
